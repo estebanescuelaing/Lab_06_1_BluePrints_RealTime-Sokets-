@@ -3,7 +3,7 @@ import axios from 'axios';
 // Instancia central de Axios con interceptores para adjuntar el JWT
 // y normalizar errores de autenticación (401 -> limpia sesión).
 
-const baseURL = import.meta.env.VITE_API_BASE_URL || 'http://localhost:8080/api';
+const baseURL = import.meta.env.VITE_API_BASE_URL || 'http://localhost:3001/api';
 
 export const TOKEN_STORAGE_KEY = 'blueprints_jwt_token';
 
